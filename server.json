@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.veredamonte-glitch/verithic",
+  "title": "Verithic · official data by municipality",
+  "description": "Data by municipality near Barcelona and Madrid: €/m², IBI, rent, minutes. Every figure sourced",
+  "version": "2.2.1",
+  "websiteUrl": "https://verithic.com/connector",
+  "icons": [
+    {
+      "src": "https://verithic.com/verithic-logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verithic.com/api/public/mcp"
+    }
+  ]
+}
